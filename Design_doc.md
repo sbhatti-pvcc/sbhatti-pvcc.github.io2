@@ -6,17 +6,29 @@ The problem that our project adresses is one of security. Encryption allows you 
 prompt: do you want to decode or encode a message?
 
 if(decode):
+
  prompt:what is your message?
  message = input
+
  prompt:what is your key?
+
  key = input
+
  message = decodingAlgorithm(message,key)
+
  print(message)
+
 else if (encode):
+
  prompt:what message do you want to decode?
+
  message = input
+
  key = generateKey()
+
  print("your key is" + key)
+
  encodedMessage = encodingAlgorithm(message,key)
- print("your encoded message is
+
+ print("your encoded message is" + encodedMessage)
  
