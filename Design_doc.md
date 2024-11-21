@@ -4,6 +4,7 @@ The problem that our project adresses is one of security. Encryption allows you 
 ## Analysis
 ## Algorithm
 prompt: do you want to decode or encode a message?
+
 if(decode):
  prompt:what is your message?
  message = input
